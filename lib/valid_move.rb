@@ -10,5 +10,3 @@ def position_taken?(board, index)
    return true
   end
 end
-
-valid_move?(number_entered, ttt_board)
