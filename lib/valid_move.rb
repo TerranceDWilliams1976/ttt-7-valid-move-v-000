@@ -5,7 +5,7 @@ def valid_move?(board, index)
       true
   elsif index >= 9
     false
-  elsif position_taken?
+  elsif position_taken? || !board[index] == ""
     false
   else
     true
